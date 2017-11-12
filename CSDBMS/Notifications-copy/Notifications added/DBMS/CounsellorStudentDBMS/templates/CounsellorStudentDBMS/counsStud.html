@@ -1,0 +1,11 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block body %}
+<center><button class ="btn btn-default"><a style="font-size:30px" href="{%url 'counsStudDetails' s.usn %}">Student Details</a><br/></button></center><br/>
+<center><button class ="btn btn-default"><a style="font-size:30px" href="{%url 'counsReport' s.usn %}">Report</a><br/></button></center><br/>
+<center><button class ="btn btn-default"><a style="font-size:30px" href="{%url 'counsCourses' s.usn %}">Enrolled Courses</a><br/></button></center><br/>
+<center><button class ="btn btn-default"><a style="font-size:30px" href="{%url 'counsRegDetails' s.usn %}">Admission Details</a><br/></button></center><br/>
+<center><button class ="btn btn-default"><a style="font-size:30px" href="{%url 'counsScholarships' s.usn %}">Scholarships</a><br/></button></center><br/>
+<center><button class ="btn btn-default"><a style="font-size:30px" href="{%url 'counsCocurr' s.usn %}">Co-curricular Activities</a><br/></button></center><br/>
+<center><button class ="btn btn-default"><a style="font-size:30px" href="{%url 'counsParDetails' s.usn %}">Parent Details</a><br/></button></center><br/>
+
+{% endblock %}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% load static %}-->
+<link rel="stylesheet" type="text/css" href="{% static 'CounsellorStudentDBMS/DBMSStyles.css' %}" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<link href="assets/css/material-kit.css" rel="stylesheet"/>
+<head>
+    <style>
+          body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+          .bgimg{
+          background-image: url("/media/counsellor.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          opacity = 50%;
+          }
+
+           </style>
+</head>
+
+<body class ="bgimg">
+<center><strong><h2><font size="30">Counsellor-Student Management System</font></h2></strong></center>
+    {% if messages %}
+            {% for message in messages %}
+<li style="font-size: 30px; list-style: none; color: black"><strong>{{ message }}</strong></li>
+            {% endfor %}
+    {% endif %}
+<div align="center">
+<div class="dropdown">
+    <button class="dropbtn"><h2>Student</h2></button>
+  <div class="dropdown-content">
+    <a href="{%url 'ssignup' 'Signup' %}">Signup</a>
+    <a href="{%url 'ssignup' 'Login'%}">Login</a>
+  </div>
+</div>
+<br/><br/><br/><br/>
+<div class="dropdown">
+    <button class="dropbtn"><h2>Parent</h2></button>
+  <div class="dropdown-content">
+    <a href="{%url 'p_signup' 'Signup' %}">Signup</a>
+    <a href="{%url 'p_signup' 'Login'%}">Login</a>
+  </div>
+</div>
+<br/><br/><br/><br/>
+<div class="dropdown">
+    <button class="dropbtn"><h2>Counsellor</h2></button>
+  <div class="dropdown-content">
+    <a href="{%url 'c_signup' 'Signup' %}">Signup</a>
+    <a href="{%url 'c_signup' 'Login'%}">Login</a>
+  </div>
+
+</div>
+</div>
+
+</body>
+</html>

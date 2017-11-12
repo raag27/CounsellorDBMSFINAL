@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ad72a12-68a6-44c0-9d3c-dd382fca4186" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="287" column="29" lean-forward="false" selection-start-line="287" selection-start-column="29" selection-end-line="287" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentProfile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/StudentProfile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegDetails.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/RegDetails.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#button#0;n#center#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="79" column="104" lean-forward="false" selection-start-line="79" selection-start-column="104" selection-end-line="79" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_report.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/student_report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-399">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#button#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#button#0;n#center#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#button#0;n#center#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scholarships.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Scholarships.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cocurr.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Cocurr.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="counsCourses.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsCourses.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="counsStud.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsStud.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="121" lean-forward="false" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notifications.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Notifications.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="54" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ParSt</find>
+      <find>Reg_Stu</find>
+      <find>Reg_parent</find>
+      <find>counsStud</find>
+      <find>counsreport</find>
+      <find>counscourses</find>
+      <find>counsRegDetails</find>
+      <find>counsScho</find>
+      <find>counsPar</find>
+      <find>counsEdit</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/DBMS/settings.py" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/parent.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/static/CounsellorStudentDBMS/DBMSStyles.css" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/student.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/CounsProfile.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/base.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsStud.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Att.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/login.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/signup.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/index.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsellor_home.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/ParProfile.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsCourses.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/student_report.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/RegDetails.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Scholarships.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Cocurr.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/StudentProfile.html" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/views.py" />
+        <option value="$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="width" value="1370" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CSDBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDBMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications-copy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications added" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications added" type="462c0819:PsiDirectoryNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications added" type="462c0819:PsiDirectoryNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="CounsellorStudentDBMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications added" type="462c0819:PsiDirectoryNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="CounsellorStudentDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications added" type="462c0819:PsiDirectoryNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="CounsellorStudentDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications added" type="462c0819:PsiDirectoryNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="CounsellorStudentDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="CounsellorStudentDBMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications added" type="462c0819:PsiDirectoryNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="CounsellorStudentDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications added" type="462c0819:PsiDirectoryNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="CounsellorStudentDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="CounsellorStudentDBMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications added" type="462c0819:PsiDirectoryNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Notifications-copy" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ad72a12-68a6-44c0-9d3c-dd382fca4186" name="Default" comment="" />
+      <created>1510295683798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510295683798</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2602118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="90" lean-forward="false" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/DBMS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/parent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/static/CounsellorStudentDBMS/DBMSStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/CounsProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/AttCourses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="90" lean-forward="false" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="117" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/student.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsellor_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/ParProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="62" lean-forward="false" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Notifications.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsCourses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsStud.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="121" lean-forward="false" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Sform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Att.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="225" lean-forward="false" selection-start-line="17" selection-start-column="225" selection-end-line="17" selection-end-column="225" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/RegDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#button#0;n#center#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Scholarships.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Cocurr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/StudentProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="287" column="29" lean-forward="false" selection-start-line="287" selection-start-column="29" selection-end-line="287" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="79" column="104" lean-forward="false" selection-start-line="79" selection-start-column="104" selection-end-line="79" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications-copy/Notifications added/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/student_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#button#0;n#center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#button#0;n#center#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

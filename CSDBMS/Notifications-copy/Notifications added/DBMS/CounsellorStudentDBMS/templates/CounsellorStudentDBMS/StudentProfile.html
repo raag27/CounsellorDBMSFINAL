@@ -1,0 +1,58 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block body %}
+{% if user == 2 %}
+<button class="btn btn-default" ><a href="{%url 'counsStud' s.usn%}"><i class="material-icons">arrow_back</i></a><br/></button>
+{% endif %}
+<strong>
+    <center>
+    <div class = "container">
+            <div class="col-lg-7">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><strong><h1><i class="material-icons">person</i>Profile</h1></strong></div>
+                    <div class="panel-body">
+    <table align="center">
+  <tr>
+    <td>Name</td>
+    <td>{{ s.Fname }}{{ " " }}{{ s.Mname|default_if_none:'' }}{{ " " }}{{ s.Lname|default_if_none:'' }}</td>
+  </tr>
+  <tr>
+    <td>USN</td>
+    <td>{{ s.usn }}</td>
+  </tr>
+  <tr>
+    <td>Phone</td>
+    <td>{{ s.pno }}</td>
+  </tr>
+  <tr>
+    <td>Email id</td>
+    <td>{{ s.email }}</td>
+  </tr>
+        <tr>
+    <td>Semester</td>
+    <td>{{ s.sem }}</td>
+  </tr>
+        <tr>
+    <td>Section</td>
+    <td>{{ s.sec }}</td>
+  </tr>
+        <tr>
+    <td>CGPA</td>
+    <td>{{ s.cgpa }}</td>
+  </tr>
+        <tr>
+     <tr>
+    <td>Address</td>
+    <td>{{ s.house_no|default_if_none:'-'}} {{ "," }} {{ s.street|default_if_none:'-' }} {{ "," }} {{ s.Area|default_if_none:'-' }} {{ "," }} {{ s.City|default_if_none:'-' }} {{ "," }} {{ s.State|default_if_none:'-' }} {{ "-" }} {{ s.PinCode|default_if_none:'-' }}</td>
+  </tr>
+</table>
+                    </div>
+                </div>
+            </div>
+    </div>
+{% if user == 1 %}
+    <center><button class ="btn btn-default"><a style="text-align: center" href="{%url 'EditStudentProfile' %}"><h3>Edit Student Profile</h3></a><br/></button></center>
+{% endif %}
+{% if user == 2 %}
+        <br/> <center><button class ="btn btn-default"><a style="font-size:30px" href="{%url 'counsEditStudDetails' s.usn %}"><strong>Edit Student Details</strong></a><br/></button></center>
+{% endif %}
+{% endblock %}

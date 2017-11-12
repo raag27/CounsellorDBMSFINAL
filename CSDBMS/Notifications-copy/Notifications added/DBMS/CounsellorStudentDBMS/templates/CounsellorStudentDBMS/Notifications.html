@@ -1,0 +1,40 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block style %}
+.alert{
+  background-color: rgba(255, 255, 255, 0.4);
+}
+{% endblock %}
+{% block body %}
+<br/>
+<strong>
+<span style="font-size:30px">
+{% if nn %}
+{% for n in nn%}
+    <div class="alert alert-secondary" role="alert">
+        <h2 class="alert-heading"><strong><bold>{{ n.label }}:</bold></strong></h2>
+    <li >{{ n.content }}</li><br/>
+    <li style="list-style: none;">Sent on: {{ n.SentOn }}</li>
+    <li style="list-style: none;">
+        {% if user == 2 %}
+         {{ "Sent to: " }}
+        {% if n.to == 1 %}
+            {{ "students" }}
+        {% elif n.to == 2 %}
+            {{ "parents and students" }}
+        {% elif n.to == 3 %}
+            {{ "parent" }}
+        {% endif %}
+        {% endif %}
+    </li>
+    </div>
+</span>
+</strong>
+{% endfor %}
+<br/>
+    {% else %}
+    <li class="msgs">No Notifications</li>
+    {% endif %}
+{% if user == 2 %}
+<button class="btn btn-default" style="font-size:30px" ><a href="{%url 'SendNoti1' %}"><h3><strong>Send Notifications</strong><i class="material-icons">send</i></h3></a></button>
+{% endif %}
+{% endblock %}

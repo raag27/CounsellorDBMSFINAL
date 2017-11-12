@@ -1,0 +1,45 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+
+{% block body %}
+<strong>
+    <center>
+<div class = "container">
+            <div class="col-lg-7">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><strong><h1><i class="material-icons">person</i>Counsellor's Details</h1></strong></div>
+                    <div class="panel-body">
+                    <table class="table borderless">
+                        <tbody>
+  <tr>
+    <td>Name</td>
+    <td>{{ c.Fname }}{{ " " }}{{ c.Mname|default_if_none:'' }}{{ " " }}{{ c.Lname|default_if_none:'' }}</td>
+  </tr>
+  <tr>
+    <td>Cid</td>
+    <td>{{ c.cid }}</td>
+  </tr>
+  <tr>
+    <td>Phone</td>
+    <td>{{ c.pno }}</td>
+  </tr>
+  <tr>
+    <td>Email id</td>
+    <td>{{ c.email }}</td>
+  </tr>
+        <tr>
+    <td>Address</td>
+    <td>{{ c.house_no|default_if_none:'-'}} {{ "," }} {{ c.street|default_if_none:'-' }} {{ "," }} {{ c.Area|default_if_none:'-' }} {{ "," }} {{ c.City|default_if_none:'-' }} {{ "," }} {{ c.State|default_if_none:'-' }} {{ "-" }} {{ c.PinCode|default_if_none:'-' }}</td>
+  </tr>
+                        </tbody>
+</table>
+{% if user == 2 %}
+    <a style="text-align: center" href="{%url 'EditCounsProfile' %}"><h3>Edit Profile</h3></a><br/>
+{% endif %}
+                    </div>
+                </div>
+            </div>
+</div>
+    </center>
+</strong>
+{% endblock %}
+

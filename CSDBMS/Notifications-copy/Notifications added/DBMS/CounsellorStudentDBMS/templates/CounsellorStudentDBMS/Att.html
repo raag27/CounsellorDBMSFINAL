@@ -1,0 +1,25 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block body %}
+{% if user == 1 %}
+    {% if cc %}
+{% for c in cc%}
+<h1><strong>Certificate No:{{c.cert_no}}</strong></h1><br/>
+    <a href="{%url 'AttCourses' c.cert_no%}"><img class="images" src="{{c.image.url}}" alt="{%url 'AttCourses' c.cert_no%}" height=500px width="500px"></a><br/><br/>
+{% endfor %}
+        {% else %}
+        <li class="msgs">No Attendance Certificates</li>
+        {% endif %}
+<center><button  class="btn btn-default"><a href="{%url 'AddAtt'%}"><h2><strong>Add Attendance Certificate</strong></h2></a><br/></button></center>
+{% endif %}
+{% if user == 2 %}
+    {% if cc %}
+{% for c in cc%}
+<h1><strong>Certificate No:{{c.cert_no}}</strong></h1><br/>
+<button  class="btn btn-default"><a href="{%url 'counsAttCourses' c.usn c.cert_no%}"><img class="images" src="{{c.image.url}}" alt="{%url 'counsAttCourses' c.usn c.cert_no%}" height=500px width="500px"></a></button><br/><br/>
+{% endfor %}
+        {% else %}
+                <li class="msgs">No Attendance Certificates</li>
+        {% endif %}
+
+{% endif %}
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block body %}
+{% if user == 2 %}
+<button class="btn btn-default" ><a href="{%url 'counsStud' usn%}"><i class="material-icons">arrow_back</i></a><br/></button>
+{% endif %}
+{% if cc %}<center>
+    {% for c in cc reversed%}
+<h1><strong>Certificate No:{{c.certno}}</strong></h1>
+    <img src = "{{c.image.url}}" height=400px width="400px"><br/>
+        <li class="list"><h2><strong>Category: {{ c.category }}<br/>Club: {{ c.Club }}<br/>Grade:{{ c.Grade }}</strong></h2></li>
+        {% if user == 2 %}
+
+            <a style="color: #bce8f1"" href="{%url 'grade' c.usn c.certno%}"><h3>Grade Co-curricular Activity</h3></a><br/>
+{% endif %}
+        <br/>
+    {% endfor %}</center>
+    {% else %}
+<li class="msgs">No Co-curricular certificates</li>
+ {% endif %}
+{% if user == 1 %}
+<center><button class ="btn btn-default"><a href="{%url 'AddCocurr'%}"><h3>Add Co-curricular Activities</h3></a><br/></button></center>
+{% endif %}
+{% endblock %}

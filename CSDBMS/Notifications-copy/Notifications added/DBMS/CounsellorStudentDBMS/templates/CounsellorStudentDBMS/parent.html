@@ -1,0 +1,55 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block body %}
+<strong>
+    <div class = "container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><strong><h1><i class="material-icons">person</i>My Profile</h1></strong></div>
+                    <div class="panel-body">
+              <table class ="table borderless" align="center">
+                  <tbody>
+  <tr>
+    <td>Name</td>
+    <td>{{ p.Fname }}{{ " " }}{{ p.Mname|default_if_none:'' }}{{ " " }}{{ p.Lname|default_if_none:'' }}</td>
+  </tr>
+  <tr>
+    <td>Pid</td>
+    <td>{{ p.pid }}</td>
+  </tr>
+        <tr>
+    <td>Student's USN</td>
+    <td>{{ p.usn_id }}</td>
+  </tr>
+  <tr>
+    <td>Phone</td>
+    <td>{{ p.phone }}</td>
+  </tr>
+  <tr>
+    <td>Email id</td>
+    <td>{{ p.email }}</td>
+  </tr>
+        <tr>
+    <td>Address</td>
+    <td>{{ p.house_no|default_if_none:'-'}} {{ "," }} {{ p.street|default_if_none:'-' }} {{ "," }} {{ p.Area|default_if_none:'-' }} {{ "," }} {{ p.City|default_if_none:'-' }} {{ "," }} {{ p.State|default_if_none:'-' }} {{ "-" }} {{ p.PinCode|default_if_none:'-' }}</td>
+  </tr>
+                  </tbody>
+</table>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><strong><h1><i class="material-icons">person</i> Ward</h1></strong></div>
+                     <div class="panel-body">
+    <a href="{% url 'ParStudDetails' %}"><h2>Student Details</h2></a>
+    <a href="{% url 'ParReport' %}"><h2>Report</h2></a>
+    <a href="{% url 'ParCocurr' %}"><h2>Co-curricular activities</h2></a>
+    <a href="{% url 'ParCounsDetails' %}"><h2>Counsellor Details</h2></a>
+                    </div>
+                </div>
+            </div>
+   </div>
+</div>
+</strong>
+{% endblock %}

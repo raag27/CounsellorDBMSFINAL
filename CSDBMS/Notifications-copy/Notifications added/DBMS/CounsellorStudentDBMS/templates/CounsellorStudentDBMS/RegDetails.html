@@ -1,0 +1,31 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block body %}
+{% if user == 2 %}
+<button class="btn btn-default" ><a href="{%url 'counsStud' usn%}"><i class="material-icons">arrow_back</i></a><br/></button>
+{% endif %}
+{% if reg %}
+
+<table class ="table table-inverse" align="center">
+
+  <tr>
+      <br/>
+    <th>Year</th>
+    <th>Challan No</th>
+    <th>Fees Amount</th>
+  </tr>
+    {% for r in reg%}
+  <tr>
+
+    <td>{{r.year}}</td>
+    <td>{{r.challan_no}}</td>
+    <td>{{r.fees}}</td>
+    {% endfor %}
+  </tr>
+</table>
+    {% else %}
+    <li class="msgs">No Admission Details added</li>
+{% endif %}
+{% if user == 1 %}
+<center><button class ="btn btn-default"><a style="text-align: center" href="{%url 'AddRegDetails'%}"><h3>Add Admission Details</h3></a><br/></button></center>
+{% endif %}
+{% endblock %}

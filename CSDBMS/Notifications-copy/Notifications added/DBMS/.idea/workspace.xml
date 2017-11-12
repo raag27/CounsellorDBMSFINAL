@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d2425c9-1f43-4b48-8626-e310b01bfc30" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="Django default" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="Django default" type="e3449647:DbNodeDescriptor" />
+        <item name="postgres" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="Django default" type="e3449647:DbNodeDescriptor" />
+        <item name="postgres" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="Django default" type="e3449647:DbNodeDescriptor" />
+        <item name="postgres" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+        <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="Django default" type="e3449647:DbNodeDescriptor" />
+        <item name="postgres" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+        <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
+        <item name="CounsellorStudentDBMS_student_access" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="202" column="51" lean-forward="false" selection-start-line="202" selection-start-column="51" selection-end-line="202" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1740">
+              <caret line="83" column="43" lean-forward="false" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+              <folding>
+                <element signature="e#1124#1186#0" expanded="false" />
+                <element signature="e#1231#4528#0" expanded="false" />
+                <element signature="e#4578#7176#0" expanded="false" />
+                <element signature="e#4840#5096#0" expanded="false" />
+                <element signature="e#7219#10313#0" expanded="false" />
+                <element signature="e#10346#10658#0" expanded="false" />
+                <element signature="e#10690#11000#0" expanded="false" />
+                <element signature="e#11036#11394#0" expanded="false" />
+                <element signature="e#11429#11837#0" expanded="false" />
+                <element signature="e#11879#12273#0" expanded="false" />
+                <element signature="e#12308#12759#0" expanded="false" />
+                <element signature="e#12798#14093#0" expanded="false" />
+                <element signature="e#14139#15338#0" expanded="false" />
+                <element signature="e#15370#15785#0" expanded="false" />
+                <element signature="e#15826#16249#0" expanded="false" />
+                <element signature="e#16282#17526#0" expanded="false" />
+                <element signature="e#17559#17973#0" expanded="false" />
+                <element signature="e#18016#18436#0" expanded="false" />
+                <element signature="e#18477#19729#0" expanded="false" />
+                <element signature="e#19756#20167#0" expanded="false" />
+                <element signature="e#20204#20600#0" expanded="false" />
+                <element signature="e#20630#21081#0" expanded="false" />
+                <element signature="e#21110#22296#0" expanded="false" />
+                <element signature="e#22335#23230#0" expanded="false" />
+                <element signature="e#23257#23695#0" expanded="false" />
+                <element signature="e#23725#24203#0" expanded="false" />
+                <element signature="e#24240#24675#0" expanded="false" />
+                <element signature="e#24723#25976#0" expanded="false" />
+                <element signature="e#26000#26410#0" expanded="false" />
+                <element signature="e#26444#26838#0" expanded="false" />
+                <element signature="e#26877#27469#0" expanded="false" />
+                <element signature="e#27518#27950#0" expanded="false" />
+                <element signature="e#27983#29801#0" expanded="false" />
+                <element signature="e#29827#31019#0" expanded="false" />
+                <element signature="e#31052#31518#0" expanded="false" />
+                <element signature="e#31554#32043#0" expanded="false" />
+                <element signature="e#32076#32489#0" expanded="false" />
+                <element signature="e#32526#33707#0" expanded="false" />
+                <element signature="e#33742#34091#0" expanded="false" />
+                <element signature="e#34132#34744#0" expanded="false" />
+                <element signature="e#34775#35179#0" expanded="false" />
+                <element signature="e#35214#36410#0" expanded="false" />
+                <element signature="e#36448#36964#0" expanded="false" />
+                <element signature="e#36999#38273#0" expanded="false" />
+                <element signature="e#38304#39571#0" expanded="false" />
+                <element signature="e#39602#40834#0" expanded="false" />
+                <element signature="e#40866#42007#0" expanded="false" />
+                <element signature="e#42808#43235#0" expanded="false" />
+                <element signature="e#43264#44624#0" expanded="false" />
+                <element signature="e#44656#44721#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notifications.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Notifications.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DBMS/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="966">
+              <caret line="46" column="7" lean-forward="false" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3024">
+              <caret line="150" column="29" lean-forward="false" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>and</find>
+      <find>AutoField</find>
+      <find>student_home</find>
+      <find>counsReport</find>
+      <find>in</find>
+      <find>student_report</find>
+      <find>parent.html</find>
+      <find>ATT</find>
+      <find>Att.html</find>
+      <find>Att</find>
+      <find>CounsAtt</find>
+      <find>CounsellorStudentDBMS1</find>
+      <find>ssignup</find>
+      <find>CounsellorStudentDBMS/templates/CounsellorStudentDBMS/</find>
+      <find>p.</find>
+      <find>s.</find>
+      <find>none</find>
+      <find>succes</find>
+      <find>UPOST(request.POST,</find>
+      <find>copy</find>
+      <find>counsellor_id_id</find>
+      <find>counsellor_id_</find>
+      <find>usn</find>
+      <find>except</find>
+      <find>ForeignKey</find>
+      <find>USE_tz</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DBMS/urls.py" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/couns_student_report.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsAtt.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsAttCourses.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsCocurr.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsParDetails.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsRegDetails.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsScholarships.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsStudDetails.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/reg_parent.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/base_for_student.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/fg.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/static/CounsellorStudentDBMS/index.css" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/CLogin_Signup.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/student.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/signup.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/CounsDetails.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/parent.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/ParStudDetails.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/ParCocurr.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsCourses.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsStud.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/index.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Home.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Profile.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Tables.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/certificates.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Cocurr.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/AttCourses.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/CounsProfile.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/RegDetails.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Scholarships.html" />
+        <option value="$PROJECT_DIR$/templates/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Notifications.html" />
+        <option value="$PROJECT_DIR$/templates/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/parent.html" />
+        <option value="$PROJECT_DIR$/templates/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/StudentProfile.html" />
+        <option value="$PROJECT_DIR$/templates/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/ParProfile.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/ParProfile.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/StudentProfile.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/student_report.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Att.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/login.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Sform.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsellor_home.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/urls.py" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/static/CounsellorStudentDBMS/DBMSStyles.css" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/views.py" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/xyz.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/forms.py" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Notifications.html" />
+        <option value="$PROJECT_DIR$/CounsellorStudentDBMS/models.py" />
+        <option value="$PROJECT_DIR$/DBMS/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="CounsellorStudentDBMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="CounsellorStudentDBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+              <item name="DBMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Chaithanya H R/PycharmProjects/DBMS/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/CLogin_Signup.html" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chaithanya H R\PycharmProjects\DBMS\CounsellorStudentDBMS\templates\CounsellorStudentDBMS1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chaithanya H R\PycharmProjects\DBMS\templates\CounsellorStudentDBMS\templates\CounsellorStudentDBMS" />
+      <recent name="C:\Users\Chaithanya H R\PycharmProjects\DBMS\CounsellorStudentDBMS\templates\CounsellorStudentDBMS1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.DBMS">
+    <configuration name="DBMS" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="DBMS.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Chaithanya H R\AppData\Local\Programs\Python\Python35-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DBMS" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/admin" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d2425c9-1f43-4b48-8626-e310b01bfc30" name="Default" comment="" />
+      <created>1508465860478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508465860478</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25442833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7995461" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.74718195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@DBMS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5716586" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CounsellorStudentDBMS/views.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CounsellorStudentDBMS/views.py</url>
+          <line>209</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CounsellorStudentDBMS/views.py</url>
+          <line>639</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CounsellorStudentDBMS/views.py</url>
+          <line>695</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CounsellorStudentDBMS/views.py</url>
+          <line>687</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CounsellorStudentDBMS/views.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CounsellorStudentDBMS/views.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Home.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsStudDetails.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/CounsDetails.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/SSignupLogin.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS1/login.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS1/signup.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS1/student.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS1/index.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS1/Sform.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS1/StudentProfile.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS1/RegDetails.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/counsCocurr.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/parent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Att.html" />
+    <entry file="file://$PROJECT_DIR$/templates/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Notifications.html" />
+    <entry file="file://$PROJECT_DIR$/templates/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Sform.html" />
+    <entry file="file://$PROJECT_DIR$/templates/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/parent.html" />
+    <entry file="file://$PROJECT_DIR$/templates/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/StudentProfile.html" />
+    <entry file="file://$PROJECT_DIR$/templates/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/ParProfile.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/CounsProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="958">
+          <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/ParProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="67" column="261" lean-forward="false" selection-start-line="67" selection-start-column="261" selection-end-line="67" selection-end-column="261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Scholarships.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/RegDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/StudentProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="82" column="60" lean-forward="false" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Cocurr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-641">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsCourses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsStud.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/certificates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../c_mainFinal-20171020T103149Z-001/c_mainFinal/c_system/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/django-1.11.5-py3.5.egg/django/utils/autoreload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/116671cb/0839a4e3-376a-49d4-a43e-6e367cc3a208/postgres.public.CounsellorStudentDBMS_coursecert" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0839a4e3-376a-49d4-a43e-6e367cc3a208/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/counsellor_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/AttCourses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBMS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/student.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/student_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/static/CounsellorStudentDBMS/DBMSStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2604">
+          <caret line="124" column="26" lean-forward="false" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/xyz.html" />
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Att.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Sform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="65" column="7" lean-forward="false" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="46" column="7" lean-forward="false" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="150" column="29" lean-forward="false" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1740">
+          <caret line="83" column="43" lean-forward="false" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+          <folding>
+            <element signature="e#1124#1186#0" expanded="false" />
+            <element signature="e#1231#4528#0" expanded="false" />
+            <element signature="e#4578#7176#0" expanded="false" />
+            <element signature="e#4840#5096#0" expanded="false" />
+            <element signature="e#7219#10313#0" expanded="false" />
+            <element signature="e#10346#10658#0" expanded="false" />
+            <element signature="e#10690#11000#0" expanded="false" />
+            <element signature="e#11036#11394#0" expanded="false" />
+            <element signature="e#11429#11837#0" expanded="false" />
+            <element signature="e#11879#12273#0" expanded="false" />
+            <element signature="e#12308#12759#0" expanded="false" />
+            <element signature="e#12798#14093#0" expanded="false" />
+            <element signature="e#14139#15338#0" expanded="false" />
+            <element signature="e#15370#15785#0" expanded="false" />
+            <element signature="e#15826#16249#0" expanded="false" />
+            <element signature="e#16282#17526#0" expanded="false" />
+            <element signature="e#17559#17973#0" expanded="false" />
+            <element signature="e#18016#18436#0" expanded="false" />
+            <element signature="e#18477#19729#0" expanded="false" />
+            <element signature="e#19756#20167#0" expanded="false" />
+            <element signature="e#20204#20600#0" expanded="false" />
+            <element signature="e#20630#21081#0" expanded="false" />
+            <element signature="e#21110#22296#0" expanded="false" />
+            <element signature="e#22335#23230#0" expanded="false" />
+            <element signature="e#23257#23695#0" expanded="false" />
+            <element signature="e#23725#24203#0" expanded="false" />
+            <element signature="e#24240#24675#0" expanded="false" />
+            <element signature="e#24723#25976#0" expanded="false" />
+            <element signature="e#26000#26410#0" expanded="false" />
+            <element signature="e#26444#26838#0" expanded="false" />
+            <element signature="e#26877#27469#0" expanded="false" />
+            <element signature="e#27518#27950#0" expanded="false" />
+            <element signature="e#27983#29801#0" expanded="false" />
+            <element signature="e#29827#31019#0" expanded="false" />
+            <element signature="e#31052#31518#0" expanded="false" />
+            <element signature="e#31554#32043#0" expanded="false" />
+            <element signature="e#32076#32489#0" expanded="false" />
+            <element signature="e#32526#33707#0" expanded="false" />
+            <element signature="e#33742#34091#0" expanded="false" />
+            <element signature="e#34132#34744#0" expanded="false" />
+            <element signature="e#34775#35179#0" expanded="false" />
+            <element signature="e#35214#36410#0" expanded="false" />
+            <element signature="e#36448#36964#0" expanded="false" />
+            <element signature="e#36999#38273#0" expanded="false" />
+            <element signature="e#38304#39571#0" expanded="false" />
+            <element signature="e#39602#40834#0" expanded="false" />
+            <element signature="e#40866#42007#0" expanded="false" />
+            <element signature="e#42808#43235#0" expanded="false" />
+            <element signature="e#43264#44624#0" expanded="false" />
+            <element signature="e#44656#44721#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/templates/CounsellorStudentDBMS/Notifications.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CounsellorStudentDBMS/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="202" column="51" lean-forward="false" selection-start-line="202" selection-start-column="51" selection-end-line="202" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBMS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

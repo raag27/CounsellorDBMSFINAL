@@ -1,0 +1,14 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block body %}
+<strong>
+<div class = "form-control">
+    <span style="font-size:30px">
+<form method = "post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type ="submit">Submit</button>
+</form>
+    </span>
+</div>
+</strong>
+{% endblock %}

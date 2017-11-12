@@ -1,0 +1,24 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block style %}
+.form-control
+{
+  background-color:rgba(255, 255, 255, 0.4);
+}
+{% endblock %}
+{% block body %}
+<strong>
+<div class="form-control">
+<form method = "post" autocomplete="off" >
+    {% load crispy_forms_tags %}
+ <span style="font-size:30px">
+    {% csrf_token %}
+    {{form.errors}}
+    {{ form|crispy }}
+    <br/>
+    <button type ="submit" class="btn btn-default" style="font-size:30px" >Submit</button>
+
+</form>
+     </span>
+</div>
+</strong>
+{% endblock %}

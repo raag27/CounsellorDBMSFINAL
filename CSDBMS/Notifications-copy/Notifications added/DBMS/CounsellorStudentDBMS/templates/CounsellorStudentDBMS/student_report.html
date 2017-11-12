@@ -1,0 +1,49 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block body %}
+{% if user == 2 %}
+<button class="btn btn-default" ><a href="{%url 'counsStud' usn%}"><i class="material-icons">arrow_back</i></a><br/></button>
+{% endif %}
+{% if students %}
+  {% for s in students%}
+<table class ="table table-inverse">
+<thead>
+  <tr>
+      <br/>
+    <th>Course Code</th>
+    <th>Test1 Marks</th>
+    <th>Test2 Marks</th>
+    <th>Test3 Marks</th>
+    <th>Attendance(Test1)</th>
+    <th>Attendance1(Test2)</th>
+    <th>Attendance1(Test3)</th>
+  </tr>
+</thead>
+  <tbody>
+  <tr>
+
+    <td>{{s.course_code}}</td>
+    <td>{{s.m_test1}}</td>
+    <td>{{s.m_test2}}</td>
+    <td>{{s.m_test3}}</td>
+    <td>{{s.a_test1}}</td>
+    <td>{{s.a_test2}}</td>
+    <td>{{s.a_test3}}</td><br/>
+  </tr>
+
+  </tbody>
+
+</table>
+{% if user == 2 %}
+<button  class="btn btn-default" style="font-size:20px"><a href="{%url 'editmarks' s.usn s.course_code%}">Edit</a><br/></button>
+        {% endif %}
+{% endfor %}
+    {% else %}
+    <li class="msgs">No marks and attendance added</li>
+{% endif %}
+{% if user == 1 %}
+<center><button  class="btn btn-default"><a style="text-align: center" href="{%url 'Att'%}"><h3>Attendance Certificates</h3></a></button></center>
+{% endif %}
+{% if user == 2 %}
+<center><button  class="btn btn-default">  <a style="text-align: center" href="{%url 'counsAtt' usn %}"><h3>Attendance Certificates</h3></a></button></center>
+{% endif %}
+{% endblock %}

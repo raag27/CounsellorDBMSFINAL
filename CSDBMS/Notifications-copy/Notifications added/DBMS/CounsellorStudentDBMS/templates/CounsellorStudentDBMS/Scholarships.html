@@ -1,0 +1,63 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block body %}
+{% if user == 2 %}
+<button class="btn btn-default" ><a href="{%url 'counsStud' usn%}"><i class="material-icons">arrow_back</i></a><br/></button>
+{% endif %}
+{% if sc %}
+<table class ="table table-inverse" align="center">
+  <tr>
+    <th>Year</th>
+    <th>Name</th>
+    <th>Amount</th>
+  </tr>
+    {% for s in sc%}
+  <tr>
+
+      <td>{{s.year}}</td>
+      <td>{{s.name}}</td>
+      <td>{{s.amount}}</td>
+    {% endfor %}
+  </tr>
+
+</table>
+    {% else %}
+    <li class="msgs">No Scholarships added</li>
+{% endif %}
+{% if user == 1 %}
+
+<center><button class ="btn btn-default"><a href="{%url 'AddScholarships'%}"><h3>Add Scholarships</h3></a><br/></button></center>
+{% endif %}
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scholarships</title>
+</head>
+<body>
+{% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+{% endif %}
+<li>{{ "year" }} {{ "name"}} {{ "amount" }}</li>
+{% for s in sc%}
+    <li>{{ s.year }} {{ s.name }} {{ s.amount }} </li>
+{% endfor %}<br/>
+<a href="{%url 'AddScholarships'%}"><h3>Add Scholarships</h3></a><br/>
+</body>
+</html>-->

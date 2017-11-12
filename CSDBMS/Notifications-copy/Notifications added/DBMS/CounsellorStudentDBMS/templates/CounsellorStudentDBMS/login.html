@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'CounsellorStudentDBMS/DBMSStyles.css' %}" />
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<link href="assets/css/material-kit.css" rel="stylesheet"/>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC"}
+
+.form-control{
+background-color:rgba(255, 255, 255, 0.4);
+font-size:30px
+}
+.bgimg{
+          background-image: url("/media/nature.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          opacity = 50%;
+          }
+</style>
+</head>
+
+<body class ="bgimg">
+{% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li style="font-size: 30px; list-style: none; color: black"><strong>{{ message }}</strong></li>
+            {% endfor %}
+        </ul>
+{% endif %}
+
+<button class="btn btn-default" ><a href="{%url 'index'%}"><i class="material-icons">arrow_back</i></a><br/></button>
+<!--<strong><center><h1>Login</h1></center></strong>
+<div class = "form-control" >
+<form method = "post" autocomplete="off" >
+    {% load crispy_forms_tags %}
+
+    {% csrf_token %}
+    {{form.errors}}
+    {{ form|crispy }}
+    <br/>
+    <button type ="submit" class="btn btn-secondary"><h2>Submit</h2></button>
+</form>
+</div>
+-->
+
+<strong>
+
+    <div class = "container">
+   <div class="row">
+            <div class="col-lg-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h1><strong>Login</strong></h1></div>
+                    <div class="panel-body">
+                        <div class = "form-control" >
+<form method = "post" autocomplete="off" >
+    {% load crispy_forms_tags %}
+
+    {% csrf_token %}
+    {{form.errors}}
+    {{ form|crispy }}
+    <br/>
+    <button type ="submit" class="btn btn-default"><h2>Submit</h2></button>
+</form>
+</div>
+                    </div>
+                </div>
+            </div>
+   </div>
+    </div>
+</body>
+</html>

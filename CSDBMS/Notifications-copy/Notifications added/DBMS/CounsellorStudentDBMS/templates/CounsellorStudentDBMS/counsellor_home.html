@@ -1,0 +1,62 @@
+
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block style %}
+{% endblock %}
+<!--</style>
+</head>-->
+
+
+<!--<body class ="bgimg">-->
+{% block body %}
+<br/>
+<strong>
+    <div class = "container-fluid">
+   <div class="row">
+            <div class="col-lg-7">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><strong><h1><i class="material-icons">person</i>My Profile</h1></strong></div>
+                    <div class="panel-body">
+                    <table class="table borderless" align="center">
+                      <tbody>
+  <tr>
+      <td>Name</td>
+    <td>{{ c.Fname }}{{ " " }}{{ c.Mname|default_if_none:'' }}{{ " " }}{{ c.Lname|default_if_none:'' }}</td>
+  </tr>
+  <tr>
+    <td>Cid</td>
+    <td>{{ c.cid }}</td>
+  </tr>
+  <tr>
+    <td>Phone</td>
+    <td>{{ c.pno }}</td>
+  </tr>
+  <tr>
+    <td>Email id</td>
+    <td>{{ c.email }}</td>
+  </tr>
+        <tr>
+    <td>Address</td>
+    <td>{{ c.house_no|default_if_none:'-'}} {{ "," }} {{ c.street|default_if_none:'-' }} {{ "," }} {{ c.Area|default_if_none:'-' }} {{ "," }} {{ c.City|default_if_none:'-' }} {{ "," }} {{ c.State|default_if_none:'-' }} {{ "-" }} {{ c.PinCode|default_if_none:'-' }}</td>
+        </tr>
+                      </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 ">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><strong><h1><i class="material-icons">people</i> Students</h1></strong></div>
+                     <div class="panel-body">
+                    {% for s in studs%}
+                    <a style="text-align: left;" href="{%url 'counsStud' s.usn%}"><h3><strong>{{ s.usn }}</strong></h3></a><br/>
+    {% endfor %}<br/>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</strong>
+{% endblock %}
+<!--</body>
+</html>

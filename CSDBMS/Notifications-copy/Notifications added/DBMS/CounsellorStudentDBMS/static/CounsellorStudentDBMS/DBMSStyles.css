@@ -1,0 +1,166 @@
+.header{
+    font-size: 20px;
+    color: black;
+    border-style: solid;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+ul.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+}
+
+li.navbar {
+    float: left;
+}
+
+li.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+li.navbar a:hover:not(.active) {
+    background-color: #111;
+}
+
+li.msgs {
+    font-size: 30px;
+    list-style: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+a:link, a:visited, a:active{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+a:hover {
+    color:orangered;
+    text-decoration: underline;
+    font-size: 20x;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+}
+
+th, td {
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+th {
+    background-color: #333333;
+    color: white;
+}
+
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 100%;
+    display: table-cell;
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: antiquewhite;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #333333;
+}
+
+.label{
+    font-size: 30px;
+    color: white;
+    background-color: cadetblue;
+    display: inline-block;
+    border: solid;
+    padding: 14px 16px;
+    margin: 0px;
+}
+
+.content{
+    font-size: 25px;
+    display: inline-block;
+    padding: 14px 16px;
+    line-height: 2px;
+}
+
+.images{
+    padding-top: 20px;
+    border: 3px solid black;
+}
+
+.images:hover{
+    border: 5px solid orangered;
+    height: 500px;
+    width: 500px;
+}
+
+.list{
+    font-size: 20px;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.listo{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: table;
+    table-layout: fixed;
+    width:100%;
+}
+
+.listlink{
+    display: table-cell;
+    padding:5px;
+    text-align: center;
+}
+
+

@@ -1,0 +1,59 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block style %}
+.panel-body {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+{% endblock %}
+
+{% block body %}
+<strong>
+    <center>
+    <div class = "container">
+            <div class="col-lg-7">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><strong><h1><i class="material-icons">person</i>My Profile</h1></strong></div>
+                    <div class="panel-body">
+<table class ="table borderless" >
+    <tbody>
+  <tr>
+    <td>Name</td>
+    <td>{{ s.Fname }}{{ " " }}{{ s.Mname|default_if_none:'' }}{{ " " }}{{ s.Lname|default_if_none:'' }}</td>
+  </tr>
+  <tr>
+    <td>USN</td>
+    <td>{{ s.usn }}</td>
+  </tr>
+  <tr>
+    <td>Phone</td>
+    <td>{{ s.pno }}</td>
+  </tr>
+  <tr>
+    <td>Email id</td>
+    <td>{{ s.email }}</td>
+  </tr>
+        <tr>
+    <td>Semester</td>
+    <td>{{ s.sem }}</td>
+  </tr>
+        <tr>
+    <td>Section</td>
+    <td>{{ s.sec }}</td>
+  </tr>
+        <tr>
+    <td>CGPA</td>
+    <td>{{ s.cgpa }}</td>
+  </tr>
+        <tr>
+     <tr>
+    <td>Address</td>
+    <td>{{ s.house_no|default_if_none:'-'}} {{ "," }} {{ s.street|default_if_none:'-' }} {{ "," }} {{ s.Area|default_if_none:'-' }} {{ "," }} {{ s.City|default_if_none:'-' }} {{ "," }} {{ s.State|default_if_none:'-' }} {{ "-" }} {{ s.PinCode|default_if_none:'-' }}</td>
+  </tr>
+    </tbody>
+</table>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </center>
+</strong>
+{% endblock %}

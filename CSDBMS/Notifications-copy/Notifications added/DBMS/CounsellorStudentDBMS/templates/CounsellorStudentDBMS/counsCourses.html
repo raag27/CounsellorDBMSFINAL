@@ -1,0 +1,13 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block body %}
+<button class="btn btn-default" ><a href="{%url 'counsStud' usn%}"><i class="material-icons">arrow_back</i></a><br/></button>
+    {% if courses %}
+<h2><strong>Courses Undertaken By Student</strong></h2>
+{% for c in courses%}
+    <li class="list"><h2><strong>{{ c.course_code }}</strong> </h2></li>
+{% endfor %}<br/>
+    {% else %}
+    <li class="msgs">No courses added</li>
+    {% endif %}
+        <center><button class ="btn btn-default"><a style="font-size:30px" href="{%url 'AddcounsCourses' usn %}">Add Enrolled Course</a><br/></button></center>
+{% endblock %}

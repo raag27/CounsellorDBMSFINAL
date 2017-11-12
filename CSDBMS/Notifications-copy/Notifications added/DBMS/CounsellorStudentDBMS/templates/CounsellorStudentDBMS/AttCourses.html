@@ -1,0 +1,14 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block body %}
+<br/>
+    {% if courses %}
+{% for c in courses%}
+<li class="list"><h3>{{ c.course_code }}</h3> </li><br/>
+{% endfor %}<br/>
+    {% else %}
+    <li class="msgs">No Courses added for attendance</li>
+    {% endif %}
+{% if user == 1 %}
+    <center><button class ="btn btn-default"><a style="text-align: center" href="{%url 'AddAttCourses' certno %}"><h3>Add Courses for Attendance</h3></a><br/></button></center>
+{% endif %}
+{% endblock %}

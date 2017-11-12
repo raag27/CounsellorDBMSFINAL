@@ -1,0 +1,55 @@
+{% extends 'CounsellorStudentDBMS/base.html' %}
+{% block style %}
+.panel-body {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+{% endblock %}
+
+{% block body %}
+<button class="btn btn-default" ><a href="{%url 'counsStud' p.usn%}"><i class="material-icons">arrow_back</i></a><br/></button>
+<strong>
+    <center>
+    <div class = "container">
+            <div class="col-lg-7">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><strong><h1><i class="material-icons">person</i>Profile</h1></strong></div>
+                    <div class="panel-body">
+    <table class="table borderless">
+        <tbody>
+  <tr>
+    <td>Name</td>
+    <td>{{ p.Fname }}{{ " " }}{{ p.Mname|default_if_none:'' }}{{ " " }}{{ p.Lname|default_if_none:'' }}</td>
+  </tr>
+  <tr>
+    <td>Pid</td>
+    <td>{{ p.pid }}</td>
+  </tr>
+        <tr>
+    <td>Student's USN</td>
+    <td>{{ p.usn_id }}</td>
+  </tr>
+  <tr>
+    <td>Phone</td>
+    <td>{{ p.phone }}</td>
+  </tr>
+  <tr>
+    <td>Email id</td>
+    <td>{{ p.email }}</td>
+  </tr>
+        <tr>
+    <td>Address</td>
+    <td>{{ p.house_no|default_if_none:'-'}} {{ "," }} {{ p.street|default_if_none:'-' }} {{ "," }} {{ p.Area|default_if_none:'-' }} {{ "," }} {{ p.City|default_if_none:'-' }} {{ "," }} {{ p.State|default_if_none:'-' }} {{ "-" }} {{ p.PinCode|default_if_none:'-' }}</td>
+  </tr>
+        </tbody>
+</table>
+{% if user == 3 %}
+    <a style="text-align: center" href="{%url 'EditParProfile' %}"><h3>Edit Profile</h3></a><br/>
+{% endif %}
+</div>
+                </div>
+            </div>
+    </div>
+    </center>
+</strong>
+
+{% endblock %}
